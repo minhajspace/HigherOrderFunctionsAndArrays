@@ -115,8 +115,36 @@ let company = [];
 
 // lasted atlest 10 years
 
-let tenYearold = [];
-tenYearold = companies.filter(
-  companies => companies.end - companies.start < 10
-);
-console.log(tenYearold);
+// let tenYearold = [];
+// tenYearold = companies.filter(
+//   companies => companies.end - companies.start < 10
+// );
+// console.log(tenYearold);
+
+//                                              map
+
+//     creating array from company names
+let NewIndex = [];
+
+//const newCompany = companies.map((name, NewIndex) => name.name);
+
+// const newCompany = companies.map(function(companies) {
+//   return `${companies.name} start from  ${companies.start} and end in ${companies.end}`;
+// });
+// console.log(newCompany);                       using arrow function
+
+// const newCompany = companies.map(
+//   companies =>
+//     `${companies.name} start from  ${companies.start} and end in ${companies.end}`
+// );
+// console.log(newCompany);       { squre root using age array }
+
+// const squreroot = age.map(age => Math.sqrt(age)).map(age => age * 2);
+// console.log(squreroot);
+
+number = [2, 4, 5, 6, 8, 9];
+index = [];
+
+num = number.map((number, index) => `index is ${index} value ${number * 2}`);
+console.log(num);
+sort();
