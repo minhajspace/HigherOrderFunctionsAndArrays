@@ -60,9 +60,22 @@ const age = [
 // });
 
 let canDrink = [];
-for (i = 0; i < age.length; i++) {
-  if (age[i] <= 18) {
-    canDrink.push(age[i]);
-  }
-}
-console.log(canDrink);
+// for (i = 0; i < age.length; i++) {
+//   if (age[i] <= 18) {
+//     canDrink.push(age[i]);
+//   }
+// }
+// console.log(canDrink);
+
+// let kids = [];
+
+// kids = age.filter(function(age) {
+//   if (age < 18) return true;
+// });
+
+// console.log(kids);
+// now using es6 one liner function or arrow function
+
+kids = age.filter(age => age <= 18);
+//canDrink = age.filter(age => age > 18);
+console.log(kids);
