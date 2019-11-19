@@ -59,6 +59,7 @@ const age = [
 //   console.log(age);
 // });
 
+let canDrink = [];
 for (i = 0; i < age.length; i++) {
   if (age[i] <= 18) {
     canDrink.push(age[i]);
