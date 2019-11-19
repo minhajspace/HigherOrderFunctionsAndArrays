@@ -52,6 +52,14 @@ const age = [
 
 //  first using simply for loop
 
-for (let i = 0; i <= companies.length; i++) {
-  console.log(companies[i]);
-}
+// for (let i = 0; i <= companies.length; i++) {
+//   console.log(companies[i]);
+// }  //   Using forEach
+
+// age.forEach(function(age) {
+//   console.log(age);
+// });
+
+// companies.forEach(function(companies) {
+//   console.log(companies.name);
+// });
